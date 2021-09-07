@@ -1,0 +1,26 @@
+version: "3.9"
+
+services:
+  qiyanalol-db:
+    container_name: qiyanalol-db
+    image: mysql:5.7
+    volumes:
+      - qiyanalol-db-vol:/var/lib/mysql
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: ${DOCKER_COMPOSE_DATABASE_ROOT_PASSWORD}
+      MYSQL_DATABASE: ${DB_NAME}
+      MYSQL_USER: ${DB_USER}
+      MYSQL_PASSWORD: ${DB_PASSWORD}
+    networks:
+      - qiyanalol-network
+
+volumes:
+  qiyanalol-db-vol:
+    name: qiyanalol-db-vol
+    external: true
+
+networks:
+  qiyanalol-network:
+    name: qiyanalol-network
+    external: true

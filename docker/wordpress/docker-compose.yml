@@ -1,0 +1,28 @@
+version: "3.9"
+    
+services:
+  qiyanalol:
+    container_name: qiyanalol
+    image: wordpress:5.8.0-php7.4
+    volumes:
+      - qiyanalol-wordpress-vol:/var/www/html
+    ports:
+      - ${PORT}:80
+    restart: always
+    environment:
+      WORDPRESS_DB_HOST: ${DB_HOST}:${DB_PORT}
+      WORDPRESS_DB_USER: ${DB_USER}
+      WORDPRESS_DB_PASSWORD: ${DB_PASSWORD}
+      WORDPRESS_DB_NAME: ${DB_NAME}
+    networks:
+      - qiyanalol-network
+
+volumes:
+  qiyanalol-wordpress-vol:
+    name: qiyanalol-wordpress-vol
+    external: true
+
+networks:
+  qiyanalol-network:
+    name: qiyanalol-network
+    external: true
