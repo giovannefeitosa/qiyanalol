@@ -6,6 +6,9 @@ services:
     image: wordpress:5.8.0-php7.4
     volumes:
       - qiyanalol-wordpress-vol:/var/www/html
+      - ../../wordpress/wp-config.php:/var/www/html/wp-config.php:ro
+      - ../../wordpress/themes:/var/www/html/wp-content/themes
+      - ../../wordpress/plugins:/var/www/html/wp-content/plugins
     ports:
       - ${PORT}:80
     restart: always
