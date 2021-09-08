@@ -9,6 +9,7 @@ services:
       - ../../wordpress/wp-config.php:/var/www/html/wp-config.php:ro
       - ../../wordpress/themes:/var/www/html/wp-content/themes
       - ../../wordpress/plugins:/var/www/html/wp-content/plugins
+      - ../../wordpress/static:/var/www/html/static
     ports:
       - ${PORT}:80
     restart: always
