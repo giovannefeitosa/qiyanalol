@@ -1,0 +1,28 @@
+{
+  "champions": {
+    "aatrox": {
+      "name": "Aatrox",
+      "image": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/icons/aatrox.png"
+    },
+    "ahri": {
+      "name": "Ahri",
+      "image": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/icons/ahri.png"
+    },
+    "akali": {
+      "name": "Akali",
+      "image": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/icons/akali.png"
+    },
+    "akshan": {
+      "name": "Akshan",
+      "image": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/icons/akshan.png"
+    },
+    "alistar": {
+      "name": "Alistar",
+      "image": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/icons/alistar.png"
+    },
+    "amumu": {
+      "name": "Amumu",
+      "image": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/icons/amumu.png"
+    }
+  }
+}
