@@ -6,6 +6,8 @@ elif [ "$1" = "doctor" ]; then
   ./tools/scripts/doctor.sh
 elif [ "$1" = "run" ]; then
   ./tools/scripts/run.sh
+elif [ "$1" = "dev" ]; then
+  ./tools/scripts/dev.sh
 elif [ "$1" = "stop" ]; then
   ./tools/scripts/stop.sh
 elif [ "$1" = "backup" ]; then
