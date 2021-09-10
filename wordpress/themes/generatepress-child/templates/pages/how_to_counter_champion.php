@@ -1,0 +1,1 @@
+page here php <?= $champion; ?>
