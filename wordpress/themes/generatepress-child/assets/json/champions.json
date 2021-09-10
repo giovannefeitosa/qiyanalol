@@ -1,28 +1,946 @@
 {
-  "champions": {
-    "aatrox": {
+  "champions": [
+    {
       "name": "Aatrox",
-      "image": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/icons/aatrox.png"
+      "slug": "aatrox",
+      "thumbnail": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/icons/aatrox.png",
+      "image": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/backgrounds/aatrox.jpg"
     },
-    "ahri": {
+    {
       "name": "Ahri",
-      "image": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/icons/ahri.png"
+      "slug": "ahri",
+      "thumbnail": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/icons/ahri.png",
+      "image": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/backgrounds/ahri.jpg"
     },
-    "akali": {
+    {
       "name": "Akali",
-      "image": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/icons/akali.png"
+      "slug": "akali",
+      "thumbnail": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/icons/akali.png",
+      "image": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/backgrounds/akali.jpg"
     },
-    "akshan": {
+    {
       "name": "Akshan",
-      "image": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/icons/akshan.png"
+      "slug": "akshan",
+      "thumbnail": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/icons/akshan.png",
+      "image": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/backgrounds/akshan.jpg"
     },
-    "alistar": {
+    {
       "name": "Alistar",
-      "image": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/icons/alistar.png"
+      "slug": "alistar",
+      "thumbnail": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/icons/alistar.png",
+      "image": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/backgrounds/alistar.jpg"
     },
-    "amumu": {
+    {
       "name": "Amumu",
-      "image": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/icons/amumu.png"
+      "slug": "amumu",
+      "thumbnail": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/icons/amumu.png",
+      "image": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/backgrounds/amumu.jpg"
+    },
+    {
+      "name": "Anivia",
+      "slug": "anivia",
+      "thumbnail": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/icons/anivia.png",
+      "image": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/backgrounds/anivia.jpg"
+    },
+    {
+      "name": "Annie",
+      "slug": "annie",
+      "thumbnail": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/icons/annie.png",
+      "image": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/backgrounds/annie.jpg"
+    },
+    {
+      "name": "Aphelios",
+      "slug": "aphelios",
+      "thumbnail": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/icons/aphelios.png",
+      "image": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/backgrounds/aphelios.jpg"
+    },
+    {
+      "name": "Ashe",
+      "slug": "ashe",
+      "thumbnail": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/icons/ashe.png",
+      "image": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/backgrounds/ashe.jpg"
+    },
+    {
+      "name": "Aurelion Sol",
+      "slug": "aurelionsol",
+      "thumbnail": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/icons/aurelionsol.png",
+      "image": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/backgrounds/aurelionsol.jpg"
+    },
+    {
+      "name": "Azir",
+      "slug": "azir",
+      "thumbnail": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/icons/azir.png",
+      "image": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/backgrounds/azir.jpg"
+    },
+    {
+      "name": "Bard",
+      "slug": "bard",
+      "thumbnail": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/icons/bard.png",
+      "image": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/backgrounds/bard.jpg"
+    },
+    {
+      "name": "Blitzcrank",
+      "slug": "blitzcrank",
+      "thumbnail": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/icons/blitzcrank.png",
+      "image": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/backgrounds/blitzcrank.jpg"
+    },
+    {
+      "name": "Brand",
+      "slug": "brand",
+      "thumbnail": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/icons/brand.png",
+      "image": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/backgrounds/brand.jpg"
+    },
+    {
+      "name": "Braum",
+      "slug": "braum",
+      "thumbnail": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/icons/braum.png",
+      "image": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/backgrounds/braum.jpg"
+    },
+    {
+      "name": "Caitlyn",
+      "slug": "caitlyn",
+      "thumbnail": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/icons/caitlyn.png",
+      "image": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/backgrounds/caitlyn.jpg"
+    },
+    {
+      "name": "Camille",
+      "slug": "camille",
+      "thumbnail": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/icons/camille.png",
+      "image": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/backgrounds/camille.jpg"
+    },
+    {
+      "name": "Cassiopeia",
+      "slug": "cassiopeia",
+      "thumbnail": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/icons/cassiopeia.png",
+      "image": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/backgrounds/cassiopeia.jpg"
+    },
+    {
+      "name": "Cho'Gath",
+      "slug": "chogath",
+      "thumbnail": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/icons/chogath.png",
+      "image": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/backgrounds/chogath.jpg"
+    },
+    {
+      "name": "Corki",
+      "slug": "corki",
+      "thumbnail": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/icons/corki.png",
+      "image": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/backgrounds/corki.jpg"
+    },
+    {
+      "name": "Darius",
+      "slug": "darius",
+      "thumbnail": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/icons/darius.png",
+      "image": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/backgrounds/darius.jpg"
+    },
+    {
+      "name": "Diana",
+      "slug": "diana",
+      "thumbnail": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/icons/diana.png",
+      "image": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/backgrounds/diana.jpg"
+    },
+    {
+      "name": "Draven",
+      "slug": "draven",
+      "thumbnail": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/icons/draven.png",
+      "image": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/backgrounds/draven.jpg"
+    },
+    {
+      "name": "Dr. Mundo",
+      "slug": "drmundo",
+      "thumbnail": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/icons/drmundo.png",
+      "image": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/backgrounds/drmundo.jpg"
+    },
+    {
+      "name": "Ekko",
+      "slug": "ekko",
+      "thumbnail": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/icons/ekko.png",
+      "image": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/backgrounds/ekko.jpg"
+    },
+    {
+      "name": "Elise",
+      "slug": "elise",
+      "thumbnail": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/icons/elise.png",
+      "image": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/backgrounds/elise.jpg"
+    },
+    {
+      "name": "Evelynn",
+      "slug": "evelynn",
+      "thumbnail": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/icons/evelynn.png",
+      "image": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/backgrounds/evelynn.jpg"
+    },
+    {
+      "name": "Ezreal",
+      "slug": "ezreal",
+      "thumbnail": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/icons/ezreal.png",
+      "image": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/backgrounds/ezreal.jpg"
+    },
+    {
+      "name": "Fiddlesticks",
+      "slug": "fiddlesticks",
+      "thumbnail": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/icons/fiddlesticks.png",
+      "image": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/backgrounds/fiddlesticks.jpg"
+    },
+    {
+      "name": "Fiora",
+      "slug": "fiora",
+      "thumbnail": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/icons/fiora.png",
+      "image": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/backgrounds/fiora.jpg"
+    },
+    {
+      "name": "Fizz",
+      "slug": "fizz",
+      "thumbnail": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/icons/fizz.png",
+      "image": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/backgrounds/fizz.jpg"
+    },
+    {
+      "name": "Galio",
+      "slug": "galio",
+      "thumbnail": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/icons/galio.png",
+      "image": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/backgrounds/galio.jpg"
+    },
+    {
+      "name": "Gangplank",
+      "slug": "gangplank",
+      "thumbnail": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/icons/gangplank.png",
+      "image": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/backgrounds/gangplank.jpg"
+    },
+    {
+      "name": "Garen",
+      "slug": "garen",
+      "thumbnail": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/icons/garen.png",
+      "image": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/backgrounds/garen.jpg"
+    },
+    {
+      "name": "Gnar",
+      "slug": "gnar",
+      "thumbnail": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/icons/gnar.png",
+      "image": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/backgrounds/gnar.jpg"
+    },
+    {
+      "name": "Gragas",
+      "slug": "gragas",
+      "thumbnail": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/icons/gragas.png",
+      "image": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/backgrounds/gragas.jpg"
+    },
+    {
+      "name": "Graves",
+      "slug": "graves",
+      "thumbnail": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/icons/graves.png",
+      "image": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/backgrounds/graves.jpg"
+    },
+    {
+      "name": "Gwen",
+      "slug": "gwen",
+      "thumbnail": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/icons/gwen.png",
+      "image": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/backgrounds/gwen.jpg"
+    },
+    {
+      "name": "Hecarim",
+      "slug": "hecarim",
+      "thumbnail": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/icons/hecarim.png",
+      "image": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/backgrounds/hecarim.jpg"
+    },
+    {
+      "name": "Heimerdinger",
+      "slug": "heimerdinger",
+      "thumbnail": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/icons/heimerdinger.png",
+      "image": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/backgrounds/heimerdinger.jpg"
+    },
+    {
+      "name": "Illaoi",
+      "slug": "illaoi",
+      "thumbnail": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/icons/illaoi.png",
+      "image": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/backgrounds/illaoi.jpg"
+    },
+    {
+      "name": "Irelia",
+      "slug": "irelia",
+      "thumbnail": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/icons/irelia.png",
+      "image": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/backgrounds/irelia.jpg"
+    },
+    {
+      "name": "Ivern",
+      "slug": "ivern",
+      "thumbnail": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/icons/ivern.png",
+      "image": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/backgrounds/ivern.jpg"
+    },
+    {
+      "name": "Janna",
+      "slug": "janna",
+      "thumbnail": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/icons/janna.png",
+      "image": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/backgrounds/janna.jpg"
+    },
+    {
+      "name": "Jarvan IV",
+      "slug": "jarvaniv",
+      "thumbnail": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/icons/jarvaniv.png",
+      "image": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/backgrounds/jarvaniv.jpg"
+    },
+    {
+      "name": "Jax",
+      "slug": "jax",
+      "thumbnail": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/icons/jax.png",
+      "image": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/backgrounds/jax.jpg"
+    },
+    {
+      "name": "Jayce",
+      "slug": "jayce",
+      "thumbnail": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/icons/jayce.png",
+      "image": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/backgrounds/jayce.jpg"
+    },
+    {
+      "name": "Jhin",
+      "slug": "jhin",
+      "thumbnail": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/icons/jhin.png",
+      "image": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/backgrounds/jhin.jpg"
+    },
+    {
+      "name": "Jinx",
+      "slug": "jinx",
+      "thumbnail": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/icons/jinx.png",
+      "image": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/backgrounds/jinx.jpg"
+    },
+    {
+      "name": "Kai'Sa",
+      "slug": "kaisa",
+      "thumbnail": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/icons/kaisa.png",
+      "image": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/backgrounds/kaisa.jpg"
+    },
+    {
+      "name": "Kalista",
+      "slug": "kalista",
+      "thumbnail": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/icons/kalista.png",
+      "image": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/backgrounds/kalista.jpg"
+    },
+    {
+      "name": "Karma",
+      "slug": "karma",
+      "thumbnail": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/icons/karma.png",
+      "image": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/backgrounds/karma.jpg"
+    },
+    {
+      "name": "Karthus",
+      "slug": "karthus",
+      "thumbnail": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/icons/karthus.png",
+      "image": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/backgrounds/karthus.jpg"
+    },
+    {
+      "name": "Kassadin",
+      "slug": "kassadin",
+      "thumbnail": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/icons/kassadin.png",
+      "image": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/backgrounds/kassadin.jpg"
+    },
+    {
+      "name": "Katarina",
+      "slug": "katarina",
+      "thumbnail": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/icons/katarina.png",
+      "image": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/backgrounds/katarina.jpg"
+    },
+    {
+      "name": "Kayle",
+      "slug": "kayle",
+      "thumbnail": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/icons/kayle.png",
+      "image": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/backgrounds/kayle.jpg"
+    },
+    {
+      "name": "Kayn",
+      "slug": "kayn",
+      "thumbnail": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/icons/kayn.png",
+      "image": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/backgrounds/kayn.jpg"
+    },
+    {
+      "name": "Kennen",
+      "slug": "kennen",
+      "thumbnail": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/icons/kennen.png",
+      "image": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/backgrounds/kennen.jpg"
+    },
+    {
+      "name": "Kha'Zix",
+      "slug": "khazix",
+      "thumbnail": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/icons/khazix.png",
+      "image": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/backgrounds/khazix.jpg"
+    },
+    {
+      "name": "Kindred",
+      "slug": "kindred",
+      "thumbnail": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/icons/kindred.png",
+      "image": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/backgrounds/kindred.jpg"
+    },
+    {
+      "name": "Kled",
+      "slug": "kled",
+      "thumbnail": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/icons/kled.png",
+      "image": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/backgrounds/kled.jpg"
+    },
+    {
+      "name": "Kog'Maw",
+      "slug": "kogmaw",
+      "thumbnail": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/icons/kogmaw.png",
+      "image": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/backgrounds/kogmaw.jpg"
+    },
+    {
+      "name": "LeBlanc",
+      "slug": "leblanc",
+      "thumbnail": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/icons/leblanc.png",
+      "image": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/backgrounds/leblanc.jpg"
+    },
+    {
+      "name": "Lee Sin",
+      "slug": "leesin",
+      "thumbnail": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/icons/leesin.png",
+      "image": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/backgrounds/leesin.jpg"
+    },
+    {
+      "name": "Leona",
+      "slug": "leona",
+      "thumbnail": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/icons/leona.png",
+      "image": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/backgrounds/leona.jpg"
+    },
+    {
+      "name": "Lillia",
+      "slug": "lillia",
+      "thumbnail": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/icons/lillia.png",
+      "image": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/backgrounds/lillia.jpg"
+    },
+    {
+      "name": "Lissandra",
+      "slug": "lissandra",
+      "thumbnail": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/icons/lissandra.png",
+      "image": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/backgrounds/lissandra.jpg"
+    },
+    {
+      "name": "Lucian",
+      "slug": "lucian",
+      "thumbnail": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/icons/lucian.png",
+      "image": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/backgrounds/lucian.jpg"
+    },
+    {
+      "name": "Lulu",
+      "slug": "lulu",
+      "thumbnail": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/icons/lulu.png",
+      "image": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/backgrounds/lulu.jpg"
+    },
+    {
+      "name": "Lux",
+      "slug": "lux",
+      "thumbnail": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/icons/lux.png",
+      "image": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/backgrounds/lux.jpg"
+    },
+    {
+      "name": "Malphite",
+      "slug": "malphite",
+      "thumbnail": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/icons/malphite.png",
+      "image": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/backgrounds/malphite.jpg"
+    },
+    {
+      "name": "Malzahar",
+      "slug": "malzahar",
+      "thumbnail": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/icons/malzahar.png",
+      "image": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/backgrounds/malzahar.jpg"
+    },
+    {
+      "name": "Maokai",
+      "slug": "maokai",
+      "thumbnail": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/icons/maokai.png",
+      "image": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/backgrounds/maokai.jpg"
+    },
+    {
+      "name": "Master Yi",
+      "slug": "masteryi",
+      "thumbnail": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/icons/masteryi.png",
+      "image": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/backgrounds/masteryi.jpg"
+    },
+    {
+      "name": "Miss Fortune",
+      "slug": "missfortune",
+      "thumbnail": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/icons/missfortune.png",
+      "image": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/backgrounds/missfortune.jpg"
+    },
+    {
+      "name": "Mordekaiser",
+      "slug": "mordekaiser",
+      "thumbnail": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/icons/mordekaiser.png",
+      "image": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/backgrounds/mordekaiser.jpg"
+    },
+    {
+      "name": "Morgana",
+      "slug": "morgana",
+      "thumbnail": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/icons/morgana.png",
+      "image": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/backgrounds/morgana.jpg"
+    },
+    {
+      "name": "Nami",
+      "slug": "nami",
+      "thumbnail": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/icons/nami.png",
+      "image": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/backgrounds/nami.jpg"
+    },
+    {
+      "name": "Nasus",
+      "slug": "nasus",
+      "thumbnail": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/icons/nasus.png",
+      "image": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/backgrounds/nasus.jpg"
+    },
+    {
+      "name": "Nautilus",
+      "slug": "nautilus",
+      "thumbnail": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/icons/nautilus.png",
+      "image": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/backgrounds/nautilus.jpg"
+    },
+    {
+      "name": "Neeko",
+      "slug": "neeko",
+      "thumbnail": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/icons/neeko.png",
+      "image": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/backgrounds/neeko.jpg"
+    },
+    {
+      "name": "Nidalee",
+      "slug": "nidalee",
+      "thumbnail": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/icons/nidalee.png",
+      "image": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/backgrounds/nidalee.jpg"
+    },
+    {
+      "name": "Nocturne",
+      "slug": "nocturne",
+      "thumbnail": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/icons/nocturne.png",
+      "image": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/backgrounds/nocturne.jpg"
+    },
+    {
+      "name": "Nunu & Willump",
+      "slug": "nunu",
+      "thumbnail": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/icons/nunu.png",
+      "image": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/backgrounds/nunu.jpg"
+    },
+    {
+      "name": "Olaf",
+      "slug": "olaf",
+      "thumbnail": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/icons/olaf.png",
+      "image": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/backgrounds/olaf.jpg"
+    },
+    {
+      "name": "Orianna",
+      "slug": "orianna",
+      "thumbnail": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/icons/orianna.png",
+      "image": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/backgrounds/orianna.jpg"
+    },
+    {
+      "name": "Ornn",
+      "slug": "ornn",
+      "thumbnail": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/icons/ornn.png",
+      "image": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/backgrounds/ornn.jpg"
+    },
+    {
+      "name": "Pantheon",
+      "slug": "pantheon",
+      "thumbnail": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/icons/pantheon.png",
+      "image": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/backgrounds/pantheon.jpg"
+    },
+    {
+      "name": "Poppy",
+      "slug": "poppy",
+      "thumbnail": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/icons/poppy.png",
+      "image": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/backgrounds/poppy.jpg"
+    },
+    {
+      "name": "Pyke",
+      "slug": "pyke",
+      "thumbnail": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/icons/pyke.png",
+      "image": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/backgrounds/pyke.jpg"
+    },
+    {
+      "name": "Qiyana",
+      "slug": "qiyana",
+      "thumbnail": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/icons/qiyana.png",
+      "image": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/backgrounds/qiyana.jpg"
+    },
+    {
+      "name": "Quinn",
+      "slug": "quinn",
+      "thumbnail": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/icons/quinn.png",
+      "image": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/backgrounds/quinn.jpg"
+    },
+    {
+      "name": "Rakan",
+      "slug": "rakan",
+      "thumbnail": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/icons/rakan.png",
+      "image": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/backgrounds/rakan.jpg"
+    },
+    {
+      "name": "Rammus",
+      "slug": "rammus",
+      "thumbnail": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/icons/rammus.png",
+      "image": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/backgrounds/rammus.jpg"
+    },
+    {
+      "name": "Rek'Sai",
+      "slug": "reksai",
+      "thumbnail": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/icons/reksai.png",
+      "image": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/backgrounds/reksai.jpg"
+    },
+    {
+      "name": "Rell",
+      "slug": "rell",
+      "thumbnail": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/icons/rell.png",
+      "image": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/backgrounds/rell.jpg"
+    },
+    {
+      "name": "Renekton",
+      "slug": "renekton",
+      "thumbnail": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/icons/renekton.png",
+      "image": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/backgrounds/renekton.jpg"
+    },
+    {
+      "name": "Rengar",
+      "slug": "rengar",
+      "thumbnail": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/icons/rengar.png",
+      "image": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/backgrounds/rengar.jpg"
+    },
+    {
+      "name": "Riven",
+      "slug": "riven",
+      "thumbnail": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/icons/riven.png",
+      "image": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/backgrounds/riven.jpg"
+    },
+    {
+      "name": "Rumble",
+      "slug": "rumble",
+      "thumbnail": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/icons/rumble.png",
+      "image": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/backgrounds/rumble.jpg"
+    },
+    {
+      "name": "Ryze",
+      "slug": "ryze",
+      "thumbnail": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/icons/ryze.png",
+      "image": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/backgrounds/ryze.jpg"
+    },
+    {
+      "name": "Samira",
+      "slug": "samira",
+      "thumbnail": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/icons/samira.png",
+      "image": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/backgrounds/samira.jpg"
+    },
+    {
+      "name": "Sejuani",
+      "slug": "sejuani",
+      "thumbnail": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/icons/sejuani.png",
+      "image": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/backgrounds/sejuani.jpg"
+    },
+    {
+      "name": "Senna",
+      "slug": "senna",
+      "thumbnail": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/icons/senna.png",
+      "image": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/backgrounds/senna.jpg"
+    },
+    {
+      "name": "Seraphine",
+      "slug": "seraphine",
+      "thumbnail": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/icons/seraphine.png",
+      "image": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/backgrounds/seraphine.jpg"
+    },
+    {
+      "name": "Sett",
+      "slug": "sett",
+      "thumbnail": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/icons/sett.png",
+      "image": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/backgrounds/sett.jpg"
+    },
+    {
+      "name": "Shaco",
+      "slug": "shaco",
+      "thumbnail": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/icons/shaco.png",
+      "image": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/backgrounds/shaco.jpg"
+    },
+    {
+      "name": "Shen",
+      "slug": "shen",
+      "thumbnail": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/icons/shen.png",
+      "image": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/backgrounds/shen.jpg"
+    },
+    {
+      "name": "Shyvana",
+      "slug": "shyvana",
+      "thumbnail": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/icons/shyvana.png",
+      "image": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/backgrounds/shyvana.jpg"
+    },
+    {
+      "name": "Singed",
+      "slug": "singed",
+      "thumbnail": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/icons/singed.png",
+      "image": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/backgrounds/singed.jpg"
+    },
+    {
+      "name": "Sion",
+      "slug": "sion",
+      "thumbnail": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/icons/sion.png",
+      "image": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/backgrounds/sion.jpg"
+    },
+    {
+      "name": "Sivir",
+      "slug": "sivir",
+      "thumbnail": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/icons/sivir.png",
+      "image": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/backgrounds/sivir.jpg"
+    },
+    {
+      "name": "Skarner",
+      "slug": "skarner",
+      "thumbnail": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/icons/skarner.png",
+      "image": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/backgrounds/skarner.jpg"
+    },
+    {
+      "name": "Sona",
+      "slug": "sona",
+      "thumbnail": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/icons/sona.png",
+      "image": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/backgrounds/sona.jpg"
+    },
+    {
+      "name": "Soraka",
+      "slug": "soraka",
+      "thumbnail": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/icons/soraka.png",
+      "image": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/backgrounds/soraka.jpg"
+    },
+    {
+      "name": "Swain",
+      "slug": "swain",
+      "thumbnail": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/icons/swain.png",
+      "image": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/backgrounds/swain.jpg"
+    },
+    {
+      "name": "Sylas",
+      "slug": "sylas",
+      "thumbnail": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/icons/sylas.png",
+      "image": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/backgrounds/sylas.jpg"
+    },
+    {
+      "name": "Syndra",
+      "slug": "syndra",
+      "thumbnail": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/icons/syndra.png",
+      "image": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/backgrounds/syndra.jpg"
+    },
+    {
+      "name": "Tahm Kench",
+      "slug": "tahmkench",
+      "thumbnail": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/icons/tahmkench.png",
+      "image": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/backgrounds/tahmkench.jpg"
+    },
+    {
+      "name": "Taliyah",
+      "slug": "taliyah",
+      "thumbnail": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/icons/taliyah.png",
+      "image": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/backgrounds/taliyah.jpg"
+    },
+    {
+      "name": "Talon",
+      "slug": "talon",
+      "thumbnail": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/icons/talon.png",
+      "image": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/backgrounds/talon.jpg"
+    },
+    {
+      "name": "Taric",
+      "slug": "taric",
+      "thumbnail": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/icons/taric.png",
+      "image": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/backgrounds/taric.jpg"
+    },
+    {
+      "name": "Teemo",
+      "slug": "teemo",
+      "thumbnail": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/icons/teemo.png",
+      "image": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/backgrounds/teemo.jpg"
+    },
+    {
+      "name": "Thresh",
+      "slug": "thresh",
+      "thumbnail": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/icons/thresh.png",
+      "image": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/backgrounds/thresh.jpg"
+    },
+    {
+      "name": "Tristana",
+      "slug": "tristana",
+      "thumbnail": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/icons/tristana.png",
+      "image": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/backgrounds/tristana.jpg"
+    },
+    {
+      "name": "Trundle",
+      "slug": "trundle",
+      "thumbnail": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/icons/trundle.png",
+      "image": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/backgrounds/trundle.jpg"
+    },
+    {
+      "name": "Tryndamere",
+      "slug": "tryndamere",
+      "thumbnail": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/icons/tryndamere.png",
+      "image": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/backgrounds/tryndamere.jpg"
+    },
+    {
+      "name": "Twisted Fate",
+      "slug": "twistedfate",
+      "thumbnail": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/icons/twistedfate.png",
+      "image": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/backgrounds/twistedfate.jpg"
+    },
+    {
+      "name": "Twitch",
+      "slug": "twitch",
+      "thumbnail": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/icons/twitch.png",
+      "image": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/backgrounds/twitch.jpg"
+    },
+    {
+      "name": "Udyr",
+      "slug": "udyr",
+      "thumbnail": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/icons/udyr.png",
+      "image": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/backgrounds/udyr.jpg"
+    },
+    {
+      "name": "Urgot",
+      "slug": "urgot",
+      "thumbnail": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/icons/urgot.png",
+      "image": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/backgrounds/urgot.jpg"
+    },
+    {
+      "name": "Varus",
+      "slug": "varus",
+      "thumbnail": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/icons/varus.png",
+      "image": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/backgrounds/varus.jpg"
+    },
+    {
+      "name": "Vayne",
+      "slug": "vayne",
+      "thumbnail": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/icons/vayne.png",
+      "image": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/backgrounds/vayne.jpg"
+    },
+    {
+      "name": "Veigar",
+      "slug": "veigar",
+      "thumbnail": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/icons/veigar.png",
+      "image": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/backgrounds/veigar.jpg"
+    },
+    {
+      "name": "Vel'Koz",
+      "slug": "velkoz",
+      "thumbnail": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/icons/velkoz.png",
+      "image": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/backgrounds/velkoz.jpg"
+    },
+    {
+      "name": "Vex",
+      "slug": "vex",
+      "thumbnail": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/icons/vex.png",
+      "image": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/backgrounds/vex.jpg"
+    },
+    {
+      "name": "Vi",
+      "slug": "vi",
+      "thumbnail": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/icons/vi.png",
+      "image": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/backgrounds/vi.jpg"
+    },
+    {
+      "name": "Viego",
+      "slug": "viego",
+      "thumbnail": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/icons/viego.png",
+      "image": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/backgrounds/viego.jpg"
+    },
+    {
+      "name": "Viktor",
+      "slug": "viktor",
+      "thumbnail": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/icons/viktor.png",
+      "image": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/backgrounds/viktor.jpg"
+    },
+    {
+      "name": "Vladimir",
+      "slug": "vladimir",
+      "thumbnail": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/icons/vladimir.png",
+      "image": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/backgrounds/vladimir.jpg"
+    },
+    {
+      "name": "Volibear",
+      "slug": "volibear",
+      "thumbnail": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/icons/volibear.png",
+      "image": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/backgrounds/volibear.jpg"
+    },
+    {
+      "name": "Warwick",
+      "slug": "warwick",
+      "thumbnail": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/icons/warwick.png",
+      "image": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/backgrounds/warwick.jpg"
+    },
+    {
+      "name": "Wukong",
+      "slug": "monkeyking",
+      "thumbnail": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/icons/monkeyking.png",
+      "image": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/backgrounds/monkeyking.jpg"
+    },
+    {
+      "name": "Xayah",
+      "slug": "xayah",
+      "thumbnail": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/icons/xayah.png",
+      "image": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/backgrounds/xayah.jpg"
+    },
+    {
+      "name": "Xerath",
+      "slug": "xerath",
+      "thumbnail": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/icons/xerath.png",
+      "image": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/backgrounds/xerath.jpg"
+    },
+    {
+      "name": "Xin Zhao",
+      "slug": "xinzhao",
+      "thumbnail": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/icons/xinzhao.png",
+      "image": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/backgrounds/xinzhao.jpg"
+    },
+    {
+      "name": "Yasuo",
+      "slug": "yasuo",
+      "thumbnail": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/icons/yasuo.png",
+      "image": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/backgrounds/yasuo.jpg"
+    },
+    {
+      "name": "Yone",
+      "slug": "yone",
+      "thumbnail": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/icons/yone.png",
+      "image": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/backgrounds/yone.jpg"
+    },
+    {
+      "name": "Yorick",
+      "slug": "yorick",
+      "thumbnail": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/icons/yorick.png",
+      "image": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/backgrounds/yorick.jpg"
+    },
+    {
+      "name": "Yuumi",
+      "slug": "yuumi",
+      "thumbnail": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/icons/yuumi.png",
+      "image": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/backgrounds/yuumi.jpg"
+    },
+    {
+      "name": "Zac",
+      "slug": "zac",
+      "thumbnail": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/icons/zac.png",
+      "image": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/backgrounds/zac.jpg"
+    },
+    {
+      "name": "Zed",
+      "slug": "zed",
+      "thumbnail": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/icons/zed.png",
+      "image": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/backgrounds/zed.jpg"
+    },
+    {
+      "name": "Ziggs",
+      "slug": "ziggs",
+      "thumbnail": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/icons/ziggs.png",
+      "image": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/backgrounds/ziggs.jpg"
+    },
+    {
+      "name": "Zilean",
+      "slug": "zilean",
+      "thumbnail": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/icons/zilean.png",
+      "image": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/backgrounds/zilean.jpg"
+    },
+    {
+      "name": "Zoe",
+      "slug": "zoe",
+      "thumbnail": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/icons/zoe.png",
+      "image": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/backgrounds/zoe.jpg"
+    },
+    {
+      "name": "Zyra",
+      "slug": "zyra",
+      "thumbnail": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/icons/zyra.png",
+      "image": "https://fastcdn.mobalytics.gg/assets/lol/images/dd/champions/backgrounds/zyra.jpg"
     }
-  }
+  ]
 }

@@ -14,6 +14,8 @@ elif [ "$1" = "backup-restore" ]; then
   ./tools/scripts/backup-restore.sh
 elif [ "$1" = "dangerous-uninstall" ]; then
   ./tools/scripts/dangerous-uninstall.sh
+elif [ "$1" = "crawler:run" ]; then
+  bash -e 'cd tools/lol-crawler && yarn crawl'
 elif [ "$1" = "docker-compose" ]; then
   docker-compose \
     --env-file .env \

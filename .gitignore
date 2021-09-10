@@ -1,2 +1,3 @@
 .env
 backup.zip
+**/node_modules/
