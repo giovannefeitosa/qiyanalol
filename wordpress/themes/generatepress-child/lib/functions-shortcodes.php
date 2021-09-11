@@ -4,7 +4,7 @@
  * List all champions' thumbnails with links to details page
  */
 function shortcode_lol_champions_list ($attrs) {
-  $champions = json_decode(file_get_contents(CHILDTHEME_BASE_DIR . '/assets/json/champions.json'), true);
+  $champions = QLOL::getAllChampions();
   
   QTemplates::echo('shortcodes/lol_champions_list', [
     'attrs' => $attrs,

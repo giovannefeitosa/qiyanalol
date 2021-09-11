@@ -1,4 +1,4 @@
-<?php foreach($champions['champions'] as $champ) { ?>
+<?php foreach($champions as $champ) { ?>
   <a
     href="<?=QURL::counterChampion($champ['slug']);?>"
     style="display: inline-block; vertical-align: top; margin: 5px; text-align: center; width: 100px;"

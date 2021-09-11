@@ -20,11 +20,16 @@ add_filter('query_vars', function($query_vars) {
 });
 
 add_action('template_include', function($template) {
-  if (get_query_var('how_to_counter_champion') == false || get_query_var('how_to_counter_champion') == '') {
-    return $template;
-  }
+  $champion_slug = get_query_var('how_to_counter_champion');
+  if (!$champion_slug) return $template;
+
+  $champion = QLOL::getChampion($champion_slug);
+  if (!$champion) return $template;
+  
+  $qiyana = QLOL::getQiyana();
 
   QTemplates::echoPage('pages/how_to_counter_champion', [
-    'champion' => get_query_var('how_to_counter_champion'),
+    'champion' => $champion,
+    'qiyana' => $qiyana,
   ]);
 });
